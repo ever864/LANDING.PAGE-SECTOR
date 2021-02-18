@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  background-image: url("/img/MG.png");
+  /* background-position: 50% 0%;
+*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+nav {
+  margin: 56px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
