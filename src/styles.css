@@ -1,11 +1,13 @@
 body {
+  margin: 0;
+  padding: 0;
   font-family: sans-serif;
+  background-color: #0b1d26;
   background-image: url("/img/MG.png");
-  /* background-position: 50% 0%;
-*/
+  background-image: linear-gradient(to bottom, #0b1d2600 50%, #0b1d26 80%),
+    url("/img/MG.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: #0b1d26;
 }
 
 nav {
@@ -15,9 +17,86 @@ nav {
   justify-content: space-between;
 }
 
-.information {
-  margin: 56px 80px;
+.primerafila {
+  margin: 940px 229px 0px 229px;
+  width: 1462px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.primerafila .information {
+  width: 896px;
+}
+
+.information_seccion {
+  position: relative;
+  margin: 145px 0 145px 150px;
+  width: 632px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.line01_seccion {
+  width: 72px;
+  height: 2px;
+  background-color: yellow;
+}
+
+.information_seccion--title {
+  margin: 27px 0px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  color: white;
+}
+
+.information_seccion--description {
+  font-family: sans-serif;
+  /* font-style: normal; */
+  font-size: 18px;
+  line-height: 32px;
+  color: white;
+}
+.information10_seccion--moreInformation {
+  display: flex;
+  flex-direction: row;
+}
+
+.information10_seccion--moreInformation div:nth-child(1) {
+  color: #fdd130;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+}
+.information10_seccion--moreInformation div:nth-child(2) {
+  position: relative;
+  top: 5px;
+  left: 15px;
+}
+
+.primerafila .first-image img {
+  width: 566px;
+  height: 720px;
+}
+
+.number01_seccion {
+  position: absolute;
+  top: 1405px;
+  right: 1430px;
+  width: 247px;
+  height: 240px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 240px;
+  line-height: 240px;
+  color: #c4c4c4;
+  opacity: 0.1;
 }
